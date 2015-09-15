@@ -57,7 +57,7 @@ public abstract class ProgrammingCourse {
         public String getPrerequisites() {
         return prerequisites;
     }
-
+/*
     public void setPrerequisites(String prerequisites) {
         if(prerequisites == null || prerequisites.length() == 0) {
             JOptionPane.showMessageDialog(null,
@@ -66,5 +66,6 @@ public abstract class ProgrammingCourse {
         }
         this.prerequisites = prerequisites;
         
-    }
+    }*/
+        public abstract String setPrerequisites();
 }
