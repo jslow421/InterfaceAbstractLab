@@ -10,8 +10,8 @@ public class IntroJavaCourse extends ProgrammingCourse {
 
     @Override
     public String Prerequisites() {
-        super.setPrerequisites("Prerequisites are: Intro to Programming");
-        return this.getPrerequisites();
+        setPrerequisites("Prerequisites are: Intro to Programming");
+        return getPrerequisites();
     }
     /* String courseName;
      private String courseNumber;
