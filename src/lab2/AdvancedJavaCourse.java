@@ -73,7 +73,7 @@ public class AdvancedJavaCourse implements CollegeClass{
 */
     
         public final String CourseName() {
-      courseName ="Intro to Programming";
+      courseName ="Advanced Java";
       return courseName;  
     }
 

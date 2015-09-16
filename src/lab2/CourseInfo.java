@@ -19,5 +19,19 @@ public class CourseInfo {
         System.out.println("Course Number: " + Intro.CourseNumber());
         System.out.println("Course Credits: " + Intro.CourseCredits());
         System.out.println("Prerequisites: " + Intro.Prerequisites());
+        
+        System.out.println("");
+        
+        System.out.println("Course Name: " + Java1.CourseName());
+        System.out.println("Course Number: " + Java1.CourseNumber());
+        System.out.println("Course Credits: " + Java1.CourseCredits());
+        System.out.println("Prerequisites: " + Java1.Prerequisites());
+        
+        System.out.println("");
+        
+        System.out.println("Course Name: " + Java2.CourseName());
+        System.out.println("Course Number: " + Java2.CourseNumber());
+        System.out.println("Course Credits: " + Java2.CourseCredits());
+        System.out.println("Prerequisites: " + Java2.Prerequisites());
     }
 }
