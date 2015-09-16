@@ -18,7 +18,7 @@ public abstract class ProgrammingCourse {
     private double credits;
     private String prerequisites;
 
-    public String getCourseNumber() {
+    public final String getCourseNumber() {
         return courseNumber;
     }
 
@@ -31,7 +31,7 @@ public abstract class ProgrammingCourse {
         this.courseNumber = courseNumber;
     }
 
-    public String getCourseName() {
+    public final String getCourseName() {
         return courseName;
     }
 
@@ -44,7 +44,7 @@ public abstract class ProgrammingCourse {
         this.courseName = courseName;
     }
 
-    public double getCredits() {
+    public final double getCredits() {
         return credits;
     }
 
@@ -57,7 +57,7 @@ public abstract class ProgrammingCourse {
         this.credits = credits;
     }
 
-    public String getPrerequisites() {
+    public final String getPrerequisites() {
         return prerequisites;
     }
     /*
