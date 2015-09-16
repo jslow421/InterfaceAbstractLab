@@ -9,7 +9,7 @@ package lab2;
  *
  * @author John
  */
-public interface CollegeClass {
+public interface ProgrammingCourse {
 
     public abstract String CourseName();
 

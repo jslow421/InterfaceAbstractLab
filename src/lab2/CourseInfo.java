@@ -12,9 +12,9 @@ package lab2;
 public class CourseInfo {
 
     public static void main(String[] args) {
-        CollegeClass Intro = new IntroToProgrammingCourse();
-        CollegeClass Java1 = new IntroJavaCourse();
-        CollegeClass Java2 = new AdvancedJavaCourse();
+        ProgrammingCourse Intro = new IntroToProgrammingCourse();
+        ProgrammingCourse Java1 = new IntroJavaCourse();
+        ProgrammingCourse Java2 = new AdvancedJavaCourse();
 
         System.out.println("Course Name: " + Intro.CourseName());
         System.out.println("Course Number: " + Intro.CourseNumber());
