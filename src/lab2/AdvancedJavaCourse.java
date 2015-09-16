@@ -8,12 +8,12 @@ import javax.swing.JOptionPane;
  * @author      your name goes here
  * @version     1.00
  */
-public class AdvancedJavaCourse {
+public class AdvancedJavaCourse implements CollegeClass{
     private String courseName;
     private String courseNumber;
-    private double credits;
+    private double courseCredits;
     private String prerequisites;
-
+/*
     public AdvancedJavaCourse(String courseName, String courseNumber) {
         this.setCourseName(courseName);
         this.setCourseNumber(courseNumber);
@@ -70,6 +70,26 @@ public class AdvancedJavaCourse {
         }
         this.courseName = courseName;
     }
+*/
+    
+        public final String CourseName() {
+      courseName ="Intro to Programming";
+      return courseName;  
+    }
 
+    public final String CourseNumber() {
+        courseNumber = "789";
+        return courseNumber;
+    }
+
+    public final double CourseCredits() {
+        courseCredits = 3;
+        return courseCredits;
+    }
+
+    public final String Prerequisites() {
+       prerequisites = "Intro to programming and Intro to Java";
+       return prerequisites;
+    }
     
 }

@@ -13,8 +13,11 @@ public class CourseInfo {
     public static void main(String[] args) {
         CollegeClass Intro = new IntroToProgrammingCourse();
         CollegeClass Java1 = new IntroJavaCourse();
-        CollegeClass java2 = new AdvancedJavaCourse();
+        CollegeClass Java2 = new AdvancedJavaCourse();
         
-        System.out.println(Intro.Prerequisites());
+        System.out.println("Course Name: " + Intro.CourseName());
+        System.out.println("Course Number: " + Intro.CourseNumber());
+        System.out.println("Course Credits: " + Intro.CourseCredits());
+        System.out.println("Prerequisites: " + Intro.Prerequisites());
     }
 }

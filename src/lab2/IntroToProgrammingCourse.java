@@ -58,22 +58,22 @@ public class IntroToProgrammingCourse implements CollegeClass{
     }
 */
 
-    public String CourseName() {
+    public final String CourseName() {
       courseName ="Intro to Programming";
       return courseName;  
     }
 
-    public String CourseNumber() {
+    public final String CourseNumber() {
         courseNumber = "123";
         return courseNumber;
     }
 
-    public double CourseCredits() {
+    public final double CourseCredits() {
         courseCredits = 3;
         return courseCredits;
     }
 
-    public String Prerequisites() {
+    public final String Prerequisites() {
        return null;
     }
 
