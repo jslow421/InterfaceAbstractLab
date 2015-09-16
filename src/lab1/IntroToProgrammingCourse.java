@@ -15,8 +15,8 @@ public class IntroToProgrammingCourse extends ProgrammingCourse{
     
     @Override
     public String Prerequisites() {
-        super.setPrerequisites("There are no prerequisites for this course");
-        return super.getPrerequisites();
+        setPrerequisites("There are no prerequisites for this course");
+        return getPrerequisites();
     }
     
     
