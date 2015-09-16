@@ -10,8 +10,12 @@ package lab2;
  * @author John
  */
 public interface CollegeClass {
+
     public abstract String CourseName();
+
     public abstract String CourseNumber();
+
     public abstract double CourseCredits();
+
     public abstract String Prerequisites();
 }
