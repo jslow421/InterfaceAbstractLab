@@ -67,5 +67,11 @@ public abstract class ProgrammingCourse {
         this.prerequisites = prerequisites;
         
     }*/
-        public abstract String setPrerequisites();
+        public abstract String Prerequisites();
+
+    public void setPrerequisites(String prerequisites) {
+        this.prerequisites = prerequisites;
+    }
+        
+        
 }
